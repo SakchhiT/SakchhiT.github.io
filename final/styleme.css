@@ -1,0 +1,15 @@
+:root{
+    --deep-red: #BD444C; 
+    --light-red: #C86D73;
+    --background: #ECE5DE;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+    background-image: url('assets/aboutmedesktop.svg');
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+}
+
+
