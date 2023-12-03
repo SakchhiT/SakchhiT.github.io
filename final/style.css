@@ -118,6 +118,7 @@ body {
 
 
 /* THE BOTTOM */
+
 .footer{
     display:flex;
     flex-direction: column;
@@ -126,16 +127,29 @@ body {
 
 #talk{
     font-weight: bold;
-    font-style: italic;
     font-size: 40px;
 }
 
-#contacts, a{
-
+#website{
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 40px;
+    margin-top: -30px;
 }
 
-#contact a:hover {
+#contacts{
+    display: flex;
+    justify-content: center;
+   
+}
+
+#contacts a{
+    margin: 0 5px;
+}
+
+#contacts a:hover {
     font-weight: bold;
+
 }
 
 

@@ -12,4 +12,109 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+.headersection {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 10px; 
+}
+
+#nav, a {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#nav a:hover {
+    font-weight: bold;
+}
+
+
+.logo {
+    margin-top: 10px; 
+    margin-left: 30px;
+}
+
+.logo:hover{
+    filter: brightness(80%);
+}
+
+/*Body*/
+.titlesection {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    max-width: 100%;
+}
+
+.image-section, .writing-section {
+    flex: 1;    
+}
+
+.image-section{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.writing-section{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+#contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 120px;
+    right: 100px;
+}
+#contacts, .name{
+    height: 25px;
+}
+
+#contact-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 10px;
+    position: relative;
+    font-weight: 600;
+    font-size: medium;
+}
+
+#contact-items a:hover {
+    font-weight: bold;
+}
+
+
+.face1{
+    margin-top: 30px;
+    margin-right: 300px;
+}
+
+#whoami {
+    top: 80px;
+    right: 40px;
+    position: relative;
+    font-weight: 500;
+    font-size: medium;
+}
+
+
+.stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
