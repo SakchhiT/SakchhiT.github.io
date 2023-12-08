@@ -51,19 +51,21 @@ body {
 }
 
 .image-section, .writing-section {
-    flex: 1;    
+    flex: 1;  
 }
 
 .image-section{
     display: flex;
     flex-direction: column;
     position: relative;
+    margin-bottom: -0px;
 }
 
 .writing-section{
     display: flex;
     flex-direction: column;
     font-weight: 600;
+    margin-top: -50px;
 }
 
 #contacts{
@@ -106,7 +108,6 @@ body {
     font-size: medium;
 }
 
-
 .stars-container {
     position: absolute;
     top: 0;
@@ -117,4 +118,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-

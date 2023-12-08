@@ -139,8 +139,7 @@ body {
 
 #contacts{
     display: flex;
-    justify-content: center;
-   
+    justify-content: center;  
 }
 
 #contacts a{
@@ -149,38 +148,45 @@ body {
 
 #contacts a:hover {
     font-weight: bold;
-
 }
 
 
-
-
-/* Overall carousel dimensions */
-
-#carousel,
-.carousel-image {
-  width: 900px;
-  height: 300px;
-}
-
+/*the carousel*/
 
 #carousel {
-  position: relative;
-  overflow: hidden;
+    width: 300px; 
+    overflow: hidden;
+    position: relative;
 }
 
-/* Images */
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2; 
+}
 
-#carousel-image-row {
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  left: 0px;
-  transition: 0.5s left;
+.carousel-image-row {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 5px; 
 }
 
 .carousel-image img {
-  height: 100%;
-  width: auto;
+    width: 100%;
+    height: auto;
 }
