@@ -2,7 +2,7 @@
 ### Taken Fall 2023
 
 🗄️Contains all of my materials from the course <br/> 
-\t 📁Labs  📁Homeworks  📁Midterm & Final 
+&emsp; 📁Labs  📁Homeworks  📁Midterm & Final 
 
 ✨View Through: <br/>
-\t [SakchhiT.github.io](https://sakchhit.github.io/)
+&emsp; [SakchhiT.github.io](https://sakchhit.github.io/)
